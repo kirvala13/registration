@@ -1,0 +1,56 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    background-color: aliceblue;
+    height: 400px;
+}
+
+.login input{
+
+    margin-top: 5px;
+}
+
+.registration{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    background-color: aliceblue;
+    height: 400px;
+    
+}
+
+.registration input{
+    border: 2px solid black;
+    margin-top: 5px;
+}
+
+.none{
+    display: none;
+}
+
+.errortext{
+    color: red;
+    
+}
+.icorrect{
+    border: 2px solid red;
+}
